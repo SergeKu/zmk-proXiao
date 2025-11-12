@@ -89,7 +89,7 @@
                                                   &lt ADJ TAB &trans &trans        &trans &trans        &lt ADJ DEL
                         >;
                 };
-                                adjust_layer {
+                adjust_layer {
 // -----------------------------------------------------------------------------------------
 //| BLDR |     |     |     |     |     |   |     |     |     |     |     | BLDR |
 //| BTCLR| BT0 | BT1 | BT2 | BT3 | BT4 |   | BT4 | BT3 | BT2 | BT1 | BT0 | BTCLR|
