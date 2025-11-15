@@ -72,7 +72,7 @@
                         bindings = <
 &kp PLUS    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                              &kp N6      &kp N7      &N8         &N9         &N0         &kp MINUS
 &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6                              &kp HOME    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp END 
-&kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp kp F12                          &none       &none       &kp PG_DN   &kp PG_UP   &none       &none
+&kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12                             &none       &none       &kp PG_DN   &kp PG_UP   &none       &none
                                                     &trans  &trans  &lt ADJ ESC             &lt ADJ RET &trans &trans
                         >; 
                 };
