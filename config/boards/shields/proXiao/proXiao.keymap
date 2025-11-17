@@ -58,9 +58,9 @@
 //                             | RSE | SPC | LWR |   | LWR | BKSP | RSE |
                         bindings = <
   &kp GRAVE &kp Q       &kp W       &kp E       &kp R       &kp T                       &kp Y           &kp U       &kp I           &kp O       &kp P           &kp LBKT
-  &kp CAPS  &mt RWIN A  &mt LALT S  &mt LCTRL D &mt LSHFT F &lt RSE G                   &lt RSE H       &mt RSHFT J &mt RCTRL K     &mt RALT L  &mt RWIN SEMI   &kp SQT
+  &kp CAPS  &mt LWIN A  &mt LALT S  &mt LCTRL D &mt LSHFT F &lt RSE G                   &lt RSE H       &mt RSHFT J &mt RCTRL K     &mt RALT L  &mt RWIN SEMI   &kp SQT
   &kp BSLH  &kp Z       &kp X       &kp C       &kp V       &kp B                       &kp N           &kp M       &kp COMMA       &kp DOT     &kp FSLH        &kp RBKT
-                                    &lt LWR TAB &kp ESC     &lt RSE SPACE               &lt RSE SPACE   &kp RET     &lt LWR BSPC
+                                    &lt LWR TAB &lt RSE SPACE &kp ESC                   &kp RET     &lt RSE SPACE   &lt LWR BSPC
                         >;
                 };
                 lower_layer {
@@ -86,7 +86,7 @@
 &kp PLUS    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                              &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp MINUS
 &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6                              &kp HOME    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp END 
 &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12                             &none       &none       &kp PG_DN   &kp PG_UP   &none       &none
-                                                    &trans  &trans  &lt ADJ ESC             &lt ADJ RET &trans &trans
+                                                    &trans  &lt ADJ ESC &trans              &trans &lt ADJ RET &trans
                         >; 
                 };
                 adjust_layer {
@@ -96,10 +96,10 @@
 //|pwrOFF|NUMLK|     |     |     |     |   |     |     |     |     |     |      |
 //                   |     |     |     |   |     |     |     |
                         bindings = <
-&bootloader           &none         &none        &none        &none        &none                             &none        &none        &none        &none        &none         &bootloader
-&bt BT_CLR            &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                      &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0  &bt BT_CLR
-&ext_power EP_OFF     &kp KP_NUM    &none        &none        &none        &none                             &none        &none        &none        &none        &none         &ext_power EP_OFF 
-                                                              &trans       &none     &trans           &trans &none        &trans
+&bootloader           &none         &none        &none        &none        &none                            &none        &none        &none        &none        &none         &bootloader
+&bt BT_CLR            &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                     &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0  &bt BT_CLR
+&ext_power EP_OFF     &kp KP_NUM    &none        &none        &none        &none                            &none        &none        &none        &none        &none         &ext_power EP_OFF 
+                                                              &trans       &trans   &none                   &none       &trans       &trans
                         >;
                 };
         };
