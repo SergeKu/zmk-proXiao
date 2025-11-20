@@ -83,7 +83,7 @@
 //| LALT |  MUTE  |  PGDN  |  ___ | END  | ___  |            | ___  | END  | ___ | PGDN | MUTE | RALT |
 //                          | ___ | ___  | ADJ  |            | ADJ  | ___  | ___ |
                         bindings = <
-&kp PLUS    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                              &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp MINUS
+&kp EQUAL   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                              &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp MINUS
 &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6                              &kp HOME    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp END 
 &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12                             &none       &none       &kp PG_DN   &kp PG_UP   &none       &none
                                                     &trans  &lt ADJ ESC &trans              &trans &lt ADJ RET &trans
